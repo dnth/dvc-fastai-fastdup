@@ -8,7 +8,7 @@ This repo documents how to use [fastdup](https://github.com/visual-layer/fastdup
 
 `models/` - Stores the model trained with fastai. Tracked by DVC.
 
-`fastdup_report` - Stores the artifacts from running fastdup.
+`fastdup_report` - Stores the artifacts from running fastdup. Tracked by Git.
 
 ## Commands
 
