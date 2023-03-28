@@ -2,6 +2,16 @@
 
 This repo documents how to use [fastdup](https://github.com/visual-layer/fastdup) to clean and curate a visual dataset, [DVC](https://github.com/iterative/dvc) to version data, and [fastai](https://github.com/fastai/fastai) to train a model.
 
+## Project Structure
+
+`data/` - Stores the train, validation and test images. Tracked by DVC.
+
+`models/` - Stores the model trained with fastai. Tracked by DVC.
+
+`fastdup_report` - Stores the artifacts from running fastdup.
+
+## Commands
+
 DVC versions the data and model produced and syncs them a Google Drive folder.
 
 Initialize dvc repo
@@ -32,3 +42,4 @@ Push dataset
 ```
 dvc push
 ```
+
