@@ -1,0 +1,4 @@
+[core]
+    remote = visuallayergdrive
+['remote "visuallayergdrive"']
+    url = gdrive://1u3nWN53Tp1ZqDEc5VFimu86EjpJ13zrk
